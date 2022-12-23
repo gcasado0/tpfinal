@@ -19,7 +19,7 @@
 <body class="container min-vh-100">        
     <header>
         <!-- Menu -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary ">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div class="container-fluid">
             <a class="navbar-brand fw-bold" href="<%=request.getContextPath()%>/">
                 <img src="<%=request.getContextPath()%>/img/codoacodo.png" alt="" width="150px"  class="d-inline-block align-text-center">
@@ -31,7 +31,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-6 justify-content-end">                    
                     <li class="nav-item">
-                        <a class="nav-link" href="/tpfinal/orador/list">Oradores</a>
+                        <a class="nav-link active" href="/tpfinal/orador/list">Oradores</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Salir</a>
