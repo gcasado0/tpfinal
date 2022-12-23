@@ -1,0 +1,4 @@
+config/DBconn.class
+model/Orador.class
+database/OradorDAO.class
+controller/OradorController.class
